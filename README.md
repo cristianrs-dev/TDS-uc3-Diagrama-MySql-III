@@ -1,8 +1,11 @@
 #Script de populacao do database para um sistema hospitalar#
+![Captura de Tela (362)](https://user-images.githubusercontent.com/58758617/185773812-83897641-f5a0-4531-8f92-b507f5931047.png)
+
 
 Atividade 3
 Contexto
 Com o banco de dados para o sistema hospitalar completamente montado, é necessário incluir dados para realizar os devidos testes e validar sua viabilidade quanto a sistema. Nesta etapa, também é importante realizar a separação de alguns scripts iniciais para o banco, com os dados que serão necessários a um povoamento inicial do sistema.
+
 Atividade
 Parte 1
 Crie scripts de povoamento das tabelas desenvolvidas na Atividade 2. Observe as seguintes regras:
@@ -16,13 +19,21 @@ Crie scripts de povoamento das tabelas desenvolvidas na Atividade 2. Observe as 
 •	Os dados de tipo de quarto, convênio e especialidade são essenciais para a operação do sistema e, portanto, devem ser povoados assim que o sistema for instalado.
 Crie um script para o povoamento básico (os itens essenciais para a implantação do sistema) e outro script para o povoamento geral de dados. Caso necessário, utilize sites geradores de CPF e de CNPJ para ajudar na definição de dados (busque por “gerar CNPJ e CPF” na web). Utilize nomes significativos para as pessoas cadastradas. Aplique dados o mais próximos possível da realidade.
 O script pronto deve estar estruturado de tal maneira que sua execução total – sem alterações – seja bem-sucedida.
+
+![Captura de Tela (363)](https://user-images.githubusercontent.com/58758617/185773835-992c711e-d696-4e01-85d0-59a7e82a99ac.png)
+
+![Captura de Tela (364)](https://user-images.githubusercontent.com/58758617/185773843-278c9eba-d5fc-41cc-8100-812b66ac881a.png)
+
+![Captura de Tela (365)](https://user-images.githubusercontent.com/58758617/185773856-90ec5582-74b2-41c6-86cf-c45368a5cf03.png)
+
 Parte 2
 Realize algumas alterações nas tabelas e nos dados usando comandos de atualização e exclusão:
 •	Crie uma coluna “em atividade” para os médicos, indicando se ele ainda está atuando no hospital ou não. Crie script para atualizar ao menos dois médicos como inativos e os demais em atividade.
 •	Crie script para atualizar as datas de alta nas internações em quartos de enfermaria para três dias após a entrada.
 •	Crie script para excluir o último convênio cadastrado e todas as consultas realizadas com esse convênio.
 Crie um novo script com essas operações em SQL solicitadas.
- 
+ ![Captura de Tela (366)](https://user-images.githubusercontent.com/58758617/185773863-747f4bb4-204c-4bbf-a2a6-f4194d5cfed8.png)
+
 Entrega
 No espaço dedicado a entregas da atividade, envie o arquivo compactado (rar, zip ou 7z) com os scripts SQL desenvolvidos para povoamento e para a atualização do banco de dados.
  
